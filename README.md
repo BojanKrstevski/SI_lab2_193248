@@ -3,6 +3,8 @@
 
 Бојан Крстевски 193248
 
+Изглед на Control Flow Graph
+
 ![](cfg.jpg)
 
 
