@@ -11,7 +11,7 @@ P+1=8
 
 Multiple Condition тест случаи:
 
-if (hr<0 || hr>24)	
+if (hr<0 || hr>24)	<br>
 -30, X
 1, 30
 3, 13
