@@ -12,36 +12,36 @@ P+1=8
 Multiple Condition тест случаи:
 
 if (hr<0 || hr>24)	<br>
--30, X
-1, 30
-3, 13
+-30, X<br>
+1, 30<br>
+3, 13<br>
 
-if (min<0 || min>59)
--30, X
-1, 70
-3, 13
+if (min<0 || min>59)<br>
+-30, X<br>
+1, 70<br>
+3, 13<br>
 
-if (sec>=0 && sec<=59)
-30, X
--3, 70
--3, 13
+if (sec>=0 && sec<=59)<br>
+30, X<br>
+-3, 70<br>
+-3, 13<br>
 
-else if (hr==24 && min==0 && sec==0)
-24, 0, 0	
-24, 0, 3	
-24, 3, X	
-25, X, X
+else if (hr==24 && min==0 && sec==0)<br>
+24, 0, 0	<br>
+24, 0, 3	<br>
+24, 3, X	<br>
+25, X, X<br>
 
-Every Branch тест случаи 
-null
-h=-1, m=X, s=X	
-h=25, m=X, s=X	
-h=1, m=-1, s=X	
-h=1, m=1, s=1	
-h=24, m=1, s=60	
-h=24, m=0, s=0	
-h=24, m=0, s=1	
-
+Every Branch тест случаи <br>
+null<br>
+h=-1, m=X, s=X	<br>
+h=25, m=X, s=X	<br>
+h=1, m=-1, s=X	<br>
+h=1, m=1, s=1	<br>
+h=24, m=1, s=60	<br>
+h=24, m=0, s=0	<br>
+h=24, m=0, s=1	<br>
+<br>
 Објаснување на напишаните unit tests:
 Со MultipleCondition тестовите ја тестираме секоја можна варијанта на if условите.
 А, кај EveryBranch критериумот, го тестираме секое можно гранење во кодот.
